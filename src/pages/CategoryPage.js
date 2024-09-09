@@ -1,7 +1,7 @@
-import productListByCategory from "../components/productList";
+import productListByCategory from "../components/productListByCategory";
 
 const CategoryPage = async () => {
-	return html`
+	return /*html*/ `
 		<div class="container">
 			<section>
 				<h2>Beauty</h2>
@@ -9,7 +9,7 @@ const CategoryPage = async () => {
 			</section>
 			<section>
 				<h2>Fragrances</h2>
-				${await productListByCategory("fragranceseauty")}
+				${await productListByCategory("fragrances")}
 			</section>
 			<section>
 				<h2>Furniture</h2>

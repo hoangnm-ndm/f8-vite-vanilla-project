@@ -16,4 +16,13 @@ export const getProducts = async (path = "/products") => {
 	}
 };
 
+export const getProductById = async (id) => {
+	try {
+		const { data } = await instance.get(`/products/${id}`);
+		return data;
+	} catch (error) {
+		console.error("Error fetching", error);
+	}
+};
+
 export default instance;

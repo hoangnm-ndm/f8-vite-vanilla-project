@@ -1,5 +1,5 @@
 export const NotFoundPage = () => {
-	return html`
+	return /*html*/ `
 		<!-- Error 404 Template 1 - Bootstrap Brain Component -->
 		<section class="py-3 py-md-5 min-vh-100 d-flex justify-content-center align-items-center">
 			<div class="container">
